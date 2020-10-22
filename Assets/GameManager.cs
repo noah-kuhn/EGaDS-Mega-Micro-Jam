@@ -12,10 +12,11 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     private const int StartingLives = 3;
     private int remainingLives;
-    public string[] games; // This is where we will put the string names of every game in the inspector
-    private List<string> nextGames = new List<string>();
-        
-    
+    public int numberOfGames;
+    private List<string> remainingGames = new List<string>();
+
+    private const float ShortTime = 3.4f;
+    private const float LongTime = 6.8f;
 
     public Canvas canvas;
     public float startWaitTime;
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour
         if (instance == null) instance = this;
         else Destroy(gameObject);
         DontDestroyOnLoad(gameObject);
-        foreach (var s in games) nextGames.Add(s);
+        for(int i = 1; i<=numberOfGames;i++) remainingGames.Add(i.ToString());
         StartCoroutine(LoadFirstGame()); //TODO: replace with title screen stuff
     }
 
@@ -46,20 +47,26 @@ public class GameManager : MonoBehaviour
 
     private string GetNextGame()
     {
-        int i = Random.Range(0, nextGames.Count - 1);
-        string game = nextGames[i];
-        //nextGames.Remove(game);
-        return game;
+        var i = Random.Range(0, remainingGames.Count-1);
+        var scene = remainingGames[i];
+        //remainingGames.Remove(game);
+        return scene;
     }
 
-    public void onMinigameStart()
+
+    
+    public void onMinigameStart(Minigame minigame)
     {
-        
+        var waitTime = minigame.gameTime == Minigame.GameTime.Short ? ShortTime : LongTime;
+        StartCoroutine(WaitForMinigameEnd(minigame, waitTime));
     }
 
-    public void onMinigameEnd(bool gameWin)
+    private IEnumerator WaitForMinigameEnd(Minigame minigame, float time)
     {
-        
+        yield return new WaitForSeconds(time);
+
+        SceneManager.LoadScene("Main");
+        if (minigame.gameWin) remainingLives -= 1;
     }
 
 
