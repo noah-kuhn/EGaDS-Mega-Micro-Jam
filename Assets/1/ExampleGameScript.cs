@@ -12,11 +12,17 @@ namespace TEAM_NAME_SPACE{
         public Text UIText;
         public string startText;
         public string winText;
+        private MinigameManager minigameManager;
         private Minigame minigame;
+        
         private void Start()
         {
             UIText.text = startText;
-            minigame = FindObjectOfType<MinigameManager>().minigame;
+            
+            minigameManager = FindObjectOfType<MinigameManager>();
+            minigame = minigameManager.minigame;
+
+            minigame.gameWin = false;
         }
 
         private void Update()
@@ -27,6 +33,7 @@ namespace TEAM_NAME_SPACE{
                 {
                     minigame.gameWin = true;
                     UIText.text = winText;
+                    minigameManager.PlaySound("win");
                 }
             }
         }
