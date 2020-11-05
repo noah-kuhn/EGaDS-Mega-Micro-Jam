@@ -14,6 +14,11 @@
 
 	- ^ If you don't do this, there may be naming conflicts with other team's projects
 	- Give the folder you submit this same name, for the same reason
+ ***************************************
+- Don't change ANYTHING in project settings
+    - There are a few added collision and rendering layers for you to work with. Hopefully these will be enough with how simple the games are
+    - You can check the collision matrix in the physics2D section, but again, don't change them
+	
  *****************************************
  - Keep sounds to the Minigame scriptable object
     - This is so your sound will be faded out on transition rather than cut off or continue playing
