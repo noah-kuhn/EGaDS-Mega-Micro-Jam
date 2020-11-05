@@ -20,33 +20,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0b94d71-4a1e-4cef-94db-0967b5a4df69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/ImpactWord.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/ImpactWord.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/MainMusic.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/MainMusic.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/Timer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/TimerManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MyTeam.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MyTeam/ExampleGameScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MyTeam/ExampleGameScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MyTeam/ExampleMusic.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MyTeam/ExampleMusic.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MyTeam/Minigame.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MyTeam/Minigame.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MyTeam/Scene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MyTeam/Scene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MyTeam/win.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MyTeam/win.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EGaDS! Mega Micro-Jam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EGaDS! Mega Micro-Jam/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EGaDS! Mega Micro-Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EGaDS! Mega Micro-Jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleGameScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ExampleGameScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GameManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MiniGame.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MiniGame.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MinigameManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MinigameManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1/Bruh.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1/Bruh.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1/ExampleGameScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1/ExampleGameScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1/ExampleMusic.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1/ExampleMusic.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1/Minigame.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1/Minigame.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1/win.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/1/win.wav.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/MinigameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/MinigameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/main music.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/main music.mp3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImpactWord.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ImpactWord.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/1.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/1/1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/1/1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/1/ExampleMusic.mp3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/1/ExampleMusic.mp3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/1/Minigame.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/1/Minigame.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TitleScreen.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TitleScreen.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundAsset.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundAsset.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +71,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/ImpactWord.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Base Files (Dont Touch)/TimerManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Base Files (Dont Touch)/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Base Files (Dont Touch)/UILives.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Base Files (Dont Touch)/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -74,19 +89,25 @@
         <option value="$PROJECT_DIR$/Assets/1/ExampleGameScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/UILives.cs" />
         <option value="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/README.txt" />
-        <option value="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/MinigameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/ImpactWord.cs" />
         <option value="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/TimerManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Base Files (Dont Touch)/MinigameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/README.txt" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1jAGmsofyf3HndemHKwWKoKuA3b" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -123,7 +144,9 @@
       <workItem from="1603239659783" duration="6519000" />
       <workItem from="1603398069537" duration="6574000" />
       <workItem from="1603404665573" duration="1979000" />
-      <workItem from="1603431531637" duration="15909000" />
+      <workItem from="1603431531637" duration="15971000" />
+      <workItem from="1604293020559" duration="7006000" />
+      <workItem from="1604532555546" duration="2092000" />
     </task>
     <servers />
   </component>
@@ -145,6 +168,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

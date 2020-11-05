@@ -6,18 +6,20 @@
     <e p="C:\Users\Grant\OneDrive\Documents\GitHub\EGaDS! Mega Micro-Jam" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="1" t="Include">
-          <e p="ExampleGameScript.cs" t="Include" />
-        </e>
         <e p="Base Files (Dont Touch)" t="Include">
           <e p="AudioManager.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="ImpactWord.cs" t="Include" />
           <e p="MiniGame.cs" t="Include" />
           <e p="MinigameManager.cs" t="Include" />
           <e p="SoundAsset.cs" t="Include" />
+          <e p="Timer.cs" t="Include" />
+          <e p="TimerManager.cs" t="Include" />
           <e p="UILives.cs" t="Include" />
         </e>
-        <e p="ImpactWord.cs" t="Include" />
+        <e p="MyTeam" t="Include">
+          <e p="ExampleGameScript.cs" t="Include" />
+        </e>
         <e p="README.txt" t="Include" />
       </e>
       <e p="EGaDS! Mega Micro-Jam.sln" t="IncludeFlat" />

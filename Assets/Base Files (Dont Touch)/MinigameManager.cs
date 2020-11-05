@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 
 
 public class MinigameManager : MonoBehaviour
@@ -36,21 +36,25 @@ public class MinigameManager : MonoBehaviour
 
     private void Awake()
     {
-        if (!(debugGameOnly && GameManager.instance == null))
+        if (!debugGameOnly && GameManager.instance == null)
+        {
+            debugGameOnly = true;
+            SceneManager.LoadScene("Main");
+        }
+        else
         {
             GameManager.instance.onMinigameStart(minigame);
-        }
+            musicSource = gameObject.AddComponent<AudioSource>();
+            musicSource.clip = minigame.music;
+            foreach (var s in minigame.sounds)
+            {
+                s.source = gameObject.AddComponent<AudioSource>();
+                s.source.clip = s.clip;
+                s.source.volume = s.volume;
+            }
 
-        musicSource = gameObject.AddComponent<AudioSource>();
-        musicSource.clip = minigame.music;
-        foreach (var s in minigame.sounds)
-        {
-            s.source = gameObject.AddComponent<AudioSource>();
-            s.source.clip = s.clip;
-            s.source.volume = s.volume;
+            musicSource.Play();
         }
-
-        musicSource.Play();
     }
 
 }

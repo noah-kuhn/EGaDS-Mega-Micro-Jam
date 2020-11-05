@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator LoadNextGame()
     {
-        if(firstGame) yield return new WaitForSeconds(.1f);
+        yield return new WaitForSeconds(.1f);
         var nextGame = GetNextGame();
         var sceneName = nextGame.name;
         AsyncOperation scene = SceneManager.LoadSceneAsync(nextGame.id);
@@ -85,6 +85,7 @@ public class GameManager : MonoBehaviour
 
     public void onMinigameStart(Minigame minigame)
     {
+        TimerManager.Instance.StartTimer(minigame.gameTime);
         var waitTime = minigame.gameTime == Minigame.GameTime.Short ? ShortTime : LongTime;
         StartCoroutine(WaitForMinigameEnd(minigame, waitTime));
     }
